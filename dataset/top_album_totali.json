@@ -1,0 +1,62 @@
+[
+  {
+    "album": "Orange County California",
+    "artist": "Tedua",
+    "plays": 3212,
+    "ms_played": 526474664
+  },
+  {
+    "album": "Sfera Ebbasta",
+    "artist": "Sfera Ebbasta",
+    "plays": 1673,
+    "ms_played": 272915557
+  },
+  {
+    "album": "Chic Nisello",
+    "artist": "Vegas Jones",
+    "plays": 1609,
+    "ms_played": 266841891
+  },
+  {
+    "album": "The Life Of Pi'erre 4",
+    "artist": "Pi’erre Bourne",
+    "plays": 1182,
+    "ms_played": 188457072
+  },
+  {
+    "album": "Succo di zenzero",
+    "artist": "Dark Polo Gang",
+    "plays": 1060,
+    "ms_played": 157169620
+  },
+  {
+    "album": "Nonostante Tutto",
+    "artist": "Gemitaiz",
+    "plays": 850,
+    "ms_played": 154838835
+  },
+  {
+    "album": "OCEANO PARADISO",
+    "artist": "chiello",
+    "plays": 886,
+    "ms_played": 137025300
+  },
+  {
+    "album": "Playboi Carti",
+    "artist": "Playboi Carti",
+    "plays": 817,
+    "ms_played": 128962953
+  },
+  {
+    "album": "Die Lit",
+    "artist": "Playboi Carti",
+    "plays": 784,
+    "ms_played": 122506155
+  },
+  {
+    "album": "Honestly, Nevermind",
+    "artist": "Drake",
+    "plays": 575,
+    "ms_played": 112527627
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "anno": 2022,
+  "ascolti_totali": 18144,
+  "minuti_totali": 40341,
+  "artisti_unici": 1582,
+  "top_10_canzoni": [
+    {
+      "track": "Polly",
+      "artist": "NASKA",
+      "plays": 100,
+      "minuti": 225,
+      "link": "https://open.spotify.com/track/1drNpTgwd5Jfzda228o9pa"
+    },
+    {
+      "track": "Guillotine",
+      "artist": "Pi’erre Bourne",
+      "plays": 79,
+      "minuti": 205,
+      "link": "https://open.spotify.com/track/7491l7CnemDkYH0jsoLvYr"
+    },
+    {
+      "track": "Shakerando",
+      "artist": "Rhove",
+      "plays": 63,
+      "minuti": 180,
+      "link": "https://open.spotify.com/track/4EC028SvtlC25iHQSG2OIa"
+    },
+    {
+      "track": "Non lasciarmi cadere",
+      "artist": "chiello",
+      "plays": 81,
+      "minuti": 171,
+      "link": "https://open.spotify.com/track/3j6JJZs12M8UBx8b9GZ9T1"
+    },
+    {
+      "track": "ROSAMARINA",
+      "artist": "Vins",
+      "plays": 68,
+      "minuti": 164,
+      "link": "https://open.spotify.com/track/66AKqmG5H8D2g89FhDwarM"
+    },
+    {
+      "track": "300 Cavalli",
+      "artist": "DAYTONA KK",
+      "plays": 55,
+      "minuti": 155,
+      "link": "https://open.spotify.com/track/4mSz38PAXM6Jzq21HsucFi"
+    },
+    {
+      "track": "Ghostrider (feat. MDMA)",
+      "artist": "MadeinTYO",
+      "plays": 66,
+      "minuti": 155,
+      "link": "https://open.spotify.com/track/3j2kwFikjlGj7niNjTyTGE"
+    },
+    {
+      "track": "DETTAGLIO",
+      "artist": "Simba La Rue",
+      "plays": 61,
+      "minuti": 147,
+      "link": "https://open.spotify.com/track/3slPwAP1lxXwCcyVvss2k1"
+    },
+    {
+      "track": "Horror",
+      "artist": "NASKA",
+      "plays": 46,
+      "minuti": 144,
+      "link": "https://open.spotify.com/track/6fPGBlx8wsAxhoDn7BwiAH"
+    },
+    {
+      "track": "Fiducia",
+      "artist": "VillaBanks",
+      "plays": 58,
+      "minuti": 136,
+      "link": "https://open.spotify.com/track/4eI6sXa9RT0qHR3vpEWXxZ"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "VillaBanks",
+      "minuti": 1783
+    },
+    {
+      "artist": "chiello",
+      "minuti": 1265
+    },
+    {
+      "artist": "NASKA",
+      "minuti": 1169
+    },
+    {
+      "artist": "Pi’erre Bourne",
+      "minuti": 745
+    },
+    {
+      "artist": "Tedua",
+      "minuti": 627
+    },
+    {
+      "artist": "bnkr44",
+      "minuti": 580
+    },
+    {
+      "artist": "Fuera",
+      "minuti": 545
+    },
+    {
+      "artist": "Rhove",
+      "minuti": 493
+    },
+    {
+      "artist": "mgk",
+      "minuti": 481
+    },
+    {
+      "artist": "Simba La Rue",
+      "minuti": 462
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "OCEANO PARADISO",
+      "artist": "chiello",
+      "minuti": 1100
+    },
+    {
+      "album": "REBEL",
+      "artist": "NASKA",
+      "minuti": 1081
+    },
+    {
+      "album": "Sex Festival",
+      "artist": "VillaBanks",
+      "minuti": 736
+    },
+    {
+      "album": "The Life Of Pi'erre 4",
+      "artist": "Pi’erre Bourne",
+      "minuti": 483
+    },
+    {
+      "album": "mainstream sellout - life in pink deluxe",
+      "artist": "mgk",
+      "minuti": 473
+    },
+    {
+      "album": "FARSI MALE A NOI VA BENE 2.0",
+      "artist": "bnkr44",
+      "minuti": 455
+    },
+    {
+      "album": "Orange County California",
+      "artist": "Tedua",
+      "minuti": 397
+    },
+    {
+      "album": "Salvatore",
+      "artist": "Paky",
+      "minuti": 387
+    },
+    {
+      "album": "STO NELLA SAD",
+      "artist": "Theø",
+      "minuti": 347
+    },
+    {
+      "album": "CRIMI",
+      "artist": "Simba La Rue",
+      "minuti": 341
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2022-10-13",
+    "minuti": 432
+  }
+}

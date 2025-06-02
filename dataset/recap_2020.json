@@ -1,0 +1,176 @@
+{
+  "anno": 2020,
+  "ascolti_totali": 18625,
+  "minuti_totali": 39253,
+  "artisti_unici": 1537,
+  "top_10_canzoni": [
+    {
+      "track": "PILLS//SORRY",
+      "artist": "Radical",
+      "plays": 62,
+      "minuti": 234,
+      "link": "https://open.spotify.com/track/4k5pZmX539k7NLXj1ugSL2"
+    },
+    {
+      "track": "Paglia",
+      "artist": "Halba x Foldino",
+      "plays": 63,
+      "minuti": 230,
+      "link": "https://open.spotify.com/track/4b0TmuoPvo4APROgqDPNPP"
+    },
+    {
+      "track": "Nove",
+      "artist": "Gallagher",
+      "plays": 83,
+      "minuti": 229,
+      "link": "https://open.spotify.com/track/5feAUjSyZploe7wNhB5zlG"
+    },
+    {
+      "track": "Guillotine",
+      "artist": "Pi’erre Bourne",
+      "plays": 82,
+      "minuti": 214,
+      "link": "https://open.spotify.com/track/7491l7CnemDkYH0jsoLvYr"
+    },
+    {
+      "track": "Passionfruit",
+      "artist": "Drake",
+      "plays": 50,
+      "minuti": 204,
+      "link": "https://open.spotify.com/track/5mCPDVBb16L4XQwDdbRUpz"
+    },
+    {
+      "track": "Quello Che Ho",
+      "artist": "SmokeStackStudio",
+      "plays": 51,
+      "minuti": 200,
+      "link": "https://open.spotify.com/track/25KWpKSftkjUBHwqKSQQsS"
+    },
+    {
+      "track": "CAMOSCIO",
+      "artist": "FSK SATELLITE",
+      "plays": 77,
+      "minuti": 191,
+      "link": "https://open.spotify.com/track/3ea1FY9QRqgbwIRYKwZr2A"
+    },
+    {
+      "track": "Dirty",
+      "artist": "Plata",
+      "plays": 73,
+      "minuti": 179,
+      "link": "https://open.spotify.com/track/0PboS93C3q6JQdN5LlLDz9"
+    },
+    {
+      "track": "Geek on a Bitch (Remix) [feat. Playboi Carti & Polo Boy Shawty]",
+      "artist": "Famous Dex",
+      "plays": 44,
+      "minuti": 158,
+      "link": "https://open.spotify.com/track/4Q6uwLNxfmxSJAOFVBweG8"
+    },
+    {
+      "track": "Reveng3\\NotMySlime",
+      "artist": "Waze RRX",
+      "plays": 75,
+      "minuti": 157,
+      "link": "https://open.spotify.com/track/47kdUFPVPJB5Y1X3amT2r9"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Dark Polo Gang",
+      "minuti": 1946
+    },
+    {
+      "artist": "Playboi Carti",
+      "minuti": 1382
+    },
+    {
+      "artist": "Tedua",
+      "minuti": 1303
+    },
+    {
+      "artist": "Pi’erre Bourne",
+      "minuti": 1151
+    },
+    {
+      "artist": "Sfera Ebbasta",
+      "minuti": 848
+    },
+    {
+      "artist": "Lil Uzi Vert",
+      "minuti": 790
+    },
+    {
+      "artist": "FSK SATELLITE",
+      "minuti": 775
+    },
+    {
+      "artist": "Vegas Jones",
+      "minuti": 720
+    },
+    {
+      "artist": "Trippie Redd",
+      "minuti": 700
+    },
+    {
+      "artist": "Thelonious B.",
+      "minuti": 548
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "The Life Of Pi'erre 4",
+      "artist": "Pi’erre Bourne",
+      "minuti": 1048
+    },
+    {
+      "album": "Succo di zenzero",
+      "artist": "Dark Polo Gang",
+      "minuti": 777
+    },
+    {
+      "album": "Orange County California",
+      "artist": "Tedua",
+      "minuti": 735
+    },
+    {
+      "album": "Die Lit",
+      "artist": "Playboi Carti",
+      "minuti": 644
+    },
+    {
+      "album": "Merrion Square",
+      "artist": "Halba x Foldino",
+      "minuti": 474
+    },
+    {
+      "album": "Crack musica",
+      "artist": "Dark Polo Gang",
+      "minuti": 395
+    },
+    {
+      "album": "Playboi Carti",
+      "artist": "Playboi Carti",
+      "minuti": 383
+    },
+    {
+      "album": "Vita Vera Mixtape",
+      "artist": "Tedua",
+      "minuti": 352
+    },
+    {
+      "album": "PADRE FIGLIO E SPIRITO",
+      "artist": "FSK SATELLITE",
+      "minuti": 337
+    },
+    {
+      "album": "Arturo",
+      "artist": "Side Baby",
+      "minuti": 334
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2020-10-06",
+    "minuti": 437
+  }
+}

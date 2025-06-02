@@ -1,0 +1,176 @@
+{
+  "anno": 2016,
+  "ascolti_totali": 4996,
+  "minuti_totali": 14143,
+  "artisti_unici": 575,
+  "top_10_canzoni": [
+    {
+      "track": "Giovani Giovani (feat. Izi & Tedua)",
+      "artist": "Laïoung",
+      "plays": 105,
+      "minuti": 433,
+      "link": "https://open.spotify.com/track/37Tqmo7OUoBAogW2oVWKnZ"
+    },
+    {
+      "track": "No No",
+      "artist": "Sfera Ebbasta",
+      "plays": 99,
+      "minuti": 365,
+      "link": "https://open.spotify.com/track/4cD3FiNtBj7kKWGug7Rax8"
+    },
+    {
+      "track": "Figli Di Papà",
+      "artist": "Sfera Ebbasta",
+      "plays": 117,
+      "minuti": 326,
+      "link": "https://open.spotify.com/track/0X9tZPTijGk3YfqFK6Jbal"
+    },
+    {
+      "track": "BRNBQ",
+      "artist": "Sfera Ebbasta",
+      "plays": 99,
+      "minuti": 317,
+      "link": "https://open.spotify.com/track/7FRGklIgBTWeqqy4QyFFF6"
+    },
+    {
+      "track": "Aeroplanini di Carta",
+      "artist": "Rkomi",
+      "plays": 96,
+      "minuti": 313,
+      "link": "https://open.spotify.com/track/0QXHNQ7wAk7WYYy45yYF0c"
+    },
+    {
+      "track": "Quello Che Non Va",
+      "artist": "Sfera Ebbasta",
+      "plays": 106,
+      "minuti": 312,
+      "link": "https://open.spotify.com/track/3L1yfhtWRuKMiggF6mcai0"
+    },
+    {
+      "track": "Ninna Nanna",
+      "artist": "Ghali",
+      "plays": 91,
+      "minuti": 277,
+      "link": "https://open.spotify.com/track/4WGYf4qlLjyx0TALaNwppu"
+    },
+    {
+      "track": "Cartine Cartier",
+      "artist": "SCH",
+      "plays": 94,
+      "minuti": 274,
+      "link": "https://open.spotify.com/track/0y7HdmX7j8ioXlMApBrJgd"
+    },
+    {
+      "track": "Equilibrio",
+      "artist": "Sfera Ebbasta",
+      "plays": 91,
+      "minuti": 248,
+      "link": "https://open.spotify.com/track/3MIyO0b66sBIYoJ2vJbznk"
+    },
+    {
+      "track": "Oh mama",
+      "artist": "Rkomi",
+      "plays": 83,
+      "minuti": 246,
+      "link": "https://open.spotify.com/track/2Xa8tbF2szxIAXDgYYO6OG"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Sfera Ebbasta",
+      "minuti": 2569
+    },
+    {
+      "artist": "Gemitaiz",
+      "minuti": 1857
+    },
+    {
+      "artist": "Rkomi",
+      "minuti": 837
+    },
+    {
+      "artist": "Laïoung",
+      "minuti": 501
+    },
+    {
+      "artist": "Tedua",
+      "minuti": 388
+    },
+    {
+      "artist": "Mezzosangue",
+      "minuti": 374
+    },
+    {
+      "artist": "Ghali",
+      "minuti": 278
+    },
+    {
+      "artist": "SCH",
+      "minuti": 274
+    },
+    {
+      "artist": "Vegas Jones",
+      "minuti": 258
+    },
+    {
+      "artist": "Izi",
+      "minuti": 256
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "Sfera Ebbasta",
+      "artist": "Sfera Ebbasta",
+      "minuti": 2390
+    },
+    {
+      "album": "Nonostante Tutto",
+      "artist": "Gemitaiz",
+      "minuti": 1220
+    },
+    {
+      "album": "Dasein sollen",
+      "artist": "Rkomi",
+      "minuti": 524
+    },
+    {
+      "album": "Giovani Giovani (feat. Izi & Tedua)",
+      "artist": "Laïoung",
+      "minuti": 433
+    },
+    {
+      "album": "L'Unico Compromesso",
+      "artist": "Gemitaiz",
+      "minuti": 387
+    },
+    {
+      "album": "Soul of a Supertramp",
+      "artist": "Mezzosangue",
+      "minuti": 374
+    },
+    {
+      "album": "Aeroplanini di Carta",
+      "artist": "Rkomi",
+      "minuti": 313
+    },
+    {
+      "album": "Ninna Nanna",
+      "artist": "Ghali",
+      "minuti": 277
+    },
+    {
+      "album": "Sfera Ebbasta",
+      "artist": "SCH",
+      "minuti": 274
+    },
+    {
+      "album": "Fenice",
+      "artist": "Izi",
+      "minuti": 255
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2016-08-23",
+    "minuti": 446
+  }
+}

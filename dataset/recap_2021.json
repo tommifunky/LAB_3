@@ -1,0 +1,176 @@
+{
+  "anno": 2021,
+  "ascolti_totali": 19493,
+  "minuti_totali": 44029,
+  "artisti_unici": 1453,
+  "top_10_canzoni": [
+    {
+      "track": "SQUALI (feat. VillaBanks & Touché)",
+      "artist": "TY1",
+      "plays": 84,
+      "minuti": 262,
+      "link": "https://open.spotify.com/track/0vpRoiHg9MARn0RhbOGNhD"
+    },
+    {
+      "track": "Ignorantes",
+      "artist": "Bad Bunny",
+      "plays": 75,
+      "minuti": 227,
+      "link": "https://open.spotify.com/track/3wYRLYuO1M88d8woWUIxct"
+    },
+    {
+      "track": "RATATA",
+      "artist": "Capo Plaza",
+      "plays": 70,
+      "minuti": 215,
+      "link": "https://open.spotify.com/track/3QjM7blH1a157YfP8G33TA"
+    },
+    {
+      "track": "AYAHUASCA ☰ (con COLAPESCE & CHIELLO)",
+      "artist": "MACE",
+      "plays": 57,
+      "minuti": 203,
+      "link": "https://open.spotify.com/track/1g7PT9g8VkXAWkzmrUhaXu"
+    },
+    {
+      "track": "Tension",
+      "artist": "Central Cee",
+      "plays": 76,
+      "minuti": 202,
+      "link": "https://open.spotify.com/track/1s2NSYZLIkUPhca8P5u1Vm"
+    },
+    {
+      "track": "CANCELLI DI MEZZANOTTE (con CHIELLO)",
+      "artist": "Rkomi",
+      "plays": 66,
+      "minuti": 188,
+      "link": "https://open.spotify.com/track/3tWjdQHkeqgFQCydN5N241"
+    },
+    {
+      "track": "Same",
+      "artist": "Spender",
+      "plays": 62,
+      "minuti": 166,
+      "link": "https://open.spotify.com/track/7BPTSBUJxctxaOIYKuJC3W"
+    },
+    {
+      "track": "Beatles",
+      "artist": "Dark Polo Gang",
+      "plays": 38,
+      "minuti": 166,
+      "link": "https://open.spotify.com/track/3wzWor4o4czRFUG2OIIeQv"
+    },
+    {
+      "track": "Lexy Sove",
+      "artist": "Lil Yachty",
+      "plays": 72,
+      "minuti": 165,
+      "link": "https://open.spotify.com/track/28xIKL8bPz0xsyAkNpyQpp"
+    },
+    {
+      "track": "TUTTO PASSA",
+      "artist": "Astro",
+      "plays": 83,
+      "minuti": 164,
+      "link": "https://open.spotify.com/track/2VO6eCysjYU4opjZ9c8Vpg"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Playboi Carti",
+      "minuti": 2001
+    },
+    {
+      "artist": "Dark Polo Gang",
+      "minuti": 1549
+    },
+    {
+      "artist": "VillaBanks",
+      "minuti": 1477
+    },
+    {
+      "artist": "Pi’erre Bourne",
+      "minuti": 1294
+    },
+    {
+      "artist": "Vegas Jones",
+      "minuti": 1009
+    },
+    {
+      "artist": "Central Cee",
+      "minuti": 984
+    },
+    {
+      "artist": "Sfera Ebbasta",
+      "minuti": 890
+    },
+    {
+      "artist": "Baby Gang",
+      "minuti": 883
+    },
+    {
+      "artist": "Tedua",
+      "minuti": 851
+    },
+    {
+      "artist": "chiello",
+      "minuti": 753
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "The Life Of Pi'erre 4",
+      "artist": "Pi’erre Bourne",
+      "minuti": 1011
+    },
+    {
+      "album": "Chic Nisello",
+      "artist": "Vegas Jones",
+      "minuti": 822
+    },
+    {
+      "album": "Wild West",
+      "artist": "Central Cee",
+      "minuti": 813
+    },
+    {
+      "album": "Die Lit",
+      "artist": "Playboi Carti",
+      "minuti": 811
+    },
+    {
+      "album": "Playboi Carti",
+      "artist": "Playboi Carti",
+      "minuti": 752
+    },
+    {
+      "album": "XDVR Reloaded",
+      "artist": "Sfera Ebbasta",
+      "minuti": 621
+    },
+    {
+      "album": "OCEANO PARADISO",
+      "artist": "chiello",
+      "minuti": 620
+    },
+    {
+      "album": "Succo di zenzero",
+      "artist": "Dark Polo Gang",
+      "minuti": 598
+    },
+    {
+      "album": "Barnacles",
+      "artist": "SahBabii",
+      "minuti": 472
+    },
+    {
+      "album": "BIRTHDAY MIX 6",
+      "artist": "Lil Yachty",
+      "minuti": 462
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2021-04-08",
+    "minuti": 650
+  }
+}

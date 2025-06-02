@@ -1,0 +1,176 @@
+{
+  "anno": 2025,
+  "ascolti_totali": 2232,
+  "minuti_totali": 5535,
+  "artisti_unici": 495,
+  "top_10_canzoni": [
+    {
+      "track": "The Beginning of the End",
+      "artist": "Headache",
+      "plays": 21,
+      "minuti": 88,
+      "link": "https://open.spotify.com/track/1MPtLlyuB1X78TeammWxy9"
+    },
+    {
+      "track": "Truisms 4 Dummies",
+      "artist": "Headache",
+      "plays": 22,
+      "minuti": 77,
+      "link": "https://open.spotify.com/track/40oMDrqiESAbKzfnK6avpB"
+    },
+    {
+      "track": "La flaca",
+      "artist": "Jarabe De Palo",
+      "plays": 26,
+      "minuti": 71,
+      "link": "https://open.spotify.com/track/2LsbizbOeNa4x6qsi2jAMb"
+    },
+    {
+      "track": "Memory Box",
+      "artist": "Peter Cat Recording Co.",
+      "plays": 11,
+      "minuti": 71,
+      "link": "https://open.spotify.com/track/024nqC9O76nvAuIWtQGdQy"
+    },
+    {
+      "track": "Shit I'm Dreaming",
+      "artist": "Peter Cat Recording Co.",
+      "plays": 12,
+      "minuti": 68,
+      "link": "https://open.spotify.com/track/1gNPP8TazAPuvq6R8oxxnU"
+    },
+    {
+      "track": "AYAHUASCA (feat. Tony Boy)",
+      "artist": "Simba La Rue",
+      "plays": 23,
+      "minuti": 64,
+      "link": "https://open.spotify.com/track/6Ajvu1afirjocbZK934qqh"
+    },
+    {
+      "track": "Roccia",
+      "artist": "22simba",
+      "plays": 25,
+      "minuti": 59,
+      "link": "https://open.spotify.com/track/6eLSWVOHrTzWeJkBzzgS3h"
+    },
+    {
+      "track": "Heera",
+      "artist": "Peter Cat Recording Co.",
+      "plays": 10,
+      "minuti": 57,
+      "link": "https://open.spotify.com/track/5VgoYN2PNwcRIbxCzmeri0"
+    },
+    {
+      "track": "Remain in Me",
+      "artist": "Peter Cat Recording Co.",
+      "plays": 13,
+      "minuti": 55,
+      "link": "https://open.spotify.com/track/7mimSbktNZYU0RBEjEUpPn"
+    },
+    {
+      "track": "Dancing in the Moonlight",
+      "artist": "Toploader",
+      "plays": 19,
+      "minuti": 53,
+      "link": "https://open.spotify.com/track/0w07a1vsKahQMM0RnPXHVT"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Peter Cat Recording Co.",
+      "minuti": 512
+    },
+    {
+      "artist": "Headache",
+      "minuti": 421
+    },
+    {
+      "artist": "Frank Ocean",
+      "minuti": 312
+    },
+    {
+      "artist": "Jarabe De Palo",
+      "minuti": 164
+    },
+    {
+      "artist": "Fred again..",
+      "minuti": 141
+    },
+    {
+      "artist": "Vegyn",
+      "minuti": 135
+    },
+    {
+      "artist": "Rino Gaetano",
+      "minuti": 124
+    },
+    {
+      "artist": "C418",
+      "minuti": 108
+    },
+    {
+      "artist": "Tedua",
+      "minuti": 91
+    },
+    {
+      "artist": "The Strokes",
+      "minuti": 86
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "Bismillah",
+      "artist": "Peter Cat Recording Co.",
+      "minuti": 508
+    },
+    {
+      "album": "The Head Hurts but the Heart Knows the Truth",
+      "artist": "Headache",
+      "minuti": 400
+    },
+    {
+      "album": "Blonde",
+      "artist": "Frank Ocean",
+      "minuti": 297
+    },
+    {
+      "album": "La Flaca",
+      "artist": "Jarabe De Palo",
+      "minuti": 145
+    },
+    {
+      "album": "Actual Life (April 14 - December 17 2020)",
+      "artist": "Fred again..",
+      "minuti": 96
+    },
+    {
+      "album": "Minecraft - Volume Alpha",
+      "artist": "C418",
+      "minuti": 93
+    },
+    {
+      "album": "Going Hard 3",
+      "artist": "Tony Boy",
+      "minuti": 83
+    },
+    {
+      "album": "Orange County California",
+      "artist": "Tedua",
+      "minuti": 82
+    },
+    {
+      "album": "AYAHUASCA (feat. Tony Boy)",
+      "artist": "Simba La Rue",
+      "minuti": 64
+    },
+    {
+      "album": "Roccia",
+      "artist": "22simba",
+      "minuti": 59
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2025-01-16",
+    "minuti": 442
+  }
+}

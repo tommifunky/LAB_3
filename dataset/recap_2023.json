@@ -1,0 +1,176 @@
+{
+  "anno": 2023,
+  "ascolti_totali": 17894,
+  "minuti_totali": 40663,
+  "artisti_unici": 2031,
+  "top_10_canzoni": [
+    {
+      "track": "Buonanotte",
+      "artist": "chiello",
+      "plays": 56,
+      "minuti": 147,
+      "link": "https://open.spotify.com/track/3vcwmTtfqSvBNYfnpG81La"
+    },
+    {
+      "track": "Milano dannata",
+      "artist": "chiello",
+      "plays": 52,
+      "minuti": 147,
+      "link": "https://open.spotify.com/track/3dBlE3CnPtbNqEcNED9JAm"
+    },
+    {
+      "track": "Runaway",
+      "artist": "Kanye West",
+      "plays": 22,
+      "minuti": 146,
+      "link": "https://open.spotify.com/track/3DK6m7It6Pw857FcQftMds"
+    },
+    {
+      "track": "Cuccurucucù - Remastered 2021",
+      "artist": "Franco Battiato",
+      "plays": 36,
+      "minuti": 131,
+      "link": "https://open.spotify.com/track/2W3kEYBdN8UTHH5GRzYvGC"
+    },
+    {
+      "track": "Summer On A Solitary Beach - Remastered 2021",
+      "artist": "Franco Battiato",
+      "plays": 31,
+      "minuti": 110,
+      "link": "https://open.spotify.com/track/0QcwEDbtwX8ylH4vthoovI"
+    },
+    {
+      "track": "La Stagione Dell'Amore - Remastered 2008",
+      "artist": "Franco Battiato",
+      "plays": 35,
+      "minuti": 109,
+      "link": "https://open.spotify.com/track/7lhMwmewNFbRl8EuVZ9eFb"
+    },
+    {
+      "track": "Bandiera Bianca - Remastered 2021",
+      "artist": "Franco Battiato",
+      "plays": 25,
+      "minuti": 104,
+      "link": "https://open.spotify.com/track/7fQ5piWnEFBc3whfqMjapM"
+    },
+    {
+      "track": "Quando va via la luna",
+      "artist": "Smeia",
+      "plays": 37,
+      "minuti": 103,
+      "link": "https://open.spotify.com/track/5r9aXC2TyD3QQabzVuKDqW"
+    },
+    {
+      "track": "Shootout",
+      "artist": "Izzamuzzic",
+      "plays": 30,
+      "minuti": 101,
+      "link": "https://open.spotify.com/track/4pTkDIlpFNoeWbahu8pVXW"
+    },
+    {
+      "track": "ROSAMARINA",
+      "artist": "Vins",
+      "plays": 41,
+      "minuti": 101,
+      "link": "https://open.spotify.com/track/66AKqmG5H8D2g89FhDwarM"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Drake",
+      "minuti": 1609
+    },
+    {
+      "artist": "chiello",
+      "minuti": 1460
+    },
+    {
+      "artist": "bnkr44",
+      "minuti": 746
+    },
+    {
+      "artist": "Franco Battiato",
+      "minuti": 708
+    },
+    {
+      "artist": "Trippie Redd",
+      "minuti": 680
+    },
+    {
+      "artist": "Tedua",
+      "minuti": 633
+    },
+    {
+      "artist": "Lil Yachty",
+      "minuti": 631
+    },
+    {
+      "artist": "VillaBanks",
+      "minuti": 622
+    },
+    {
+      "artist": "Sfera Ebbasta",
+      "minuti": 473
+    },
+    {
+      "artist": "Playboi Carti",
+      "minuti": 469
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "Honestly, Nevermind",
+      "artist": "Drake",
+      "minuti": 881
+    },
+    {
+      "album": "MELA MARCIA",
+      "artist": "chiello",
+      "minuti": 844
+    },
+    {
+      "album": "La Voce Del Padrone",
+      "artist": "Franco Battiato",
+      "minuti": 569
+    },
+    {
+      "album": "For All The Dogs",
+      "artist": "Drake",
+      "minuti": 439
+    },
+    {
+      "album": "The Essential Bob Dylan",
+      "artist": "Bob Dylan",
+      "minuti": 430
+    },
+    {
+      "album": "ACQUADOLCE",
+      "artist": "Memento",
+      "minuti": 371
+    },
+    {
+      "album": "OCEANO PARADISO",
+      "artist": "chiello",
+      "minuti": 303
+    },
+    {
+      "album": "BIRTHDAY MIX 6",
+      "artist": "Lil Yachty",
+      "minuti": 299
+    },
+    {
+      "album": "Regulate… G Funk Era",
+      "artist": "Warren G",
+      "minuti": 290
+    },
+    {
+      "album": "Orange County California",
+      "artist": "Tedua",
+      "minuti": 282
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2023-11-30",
+    "minuti": 511
+  }
+}

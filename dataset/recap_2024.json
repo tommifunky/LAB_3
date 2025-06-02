@@ -1,0 +1,176 @@
+{
+  "anno": 2024,
+  "ascolti_totali": 16181,
+  "minuti_totali": 39066,
+  "artisti_unici": 1688,
+  "top_10_canzoni": [
+    {
+      "track": "Addosso",
+      "artist": "Kuremino",
+      "plays": 93,
+      "minuti": 213,
+      "link": "https://open.spotify.com/track/6q40i1kf85LSF35cadTAw9"
+    },
+    {
+      "track": "Truisms 4 Dummies",
+      "artist": "Headache",
+      "plays": 45,
+      "minuti": 190,
+      "link": "https://open.spotify.com/track/40oMDrqiESAbKzfnK6avpB"
+    },
+    {
+      "track": "IZ-US",
+      "artist": "Aphex Twin",
+      "plays": 56,
+      "minuti": 149,
+      "link": "https://open.spotify.com/track/6INSqTqDoz6ndc0oKTi0Sq"
+    },
+    {
+      "track": "The Beginning of the End",
+      "artist": "Headache",
+      "plays": 36,
+      "minuti": 143,
+      "link": "https://open.spotify.com/track/1MPtLlyuB1X78TeammWxy9"
+    },
+    {
+      "track": "Bella",
+      "artist": "Neima Ezza",
+      "plays": 49,
+      "minuti": 131,
+      "link": "https://open.spotify.com/track/5pUXOMfcgoySNf2cTruenS"
+    },
+    {
+      "track": "HO SBAGLIATO ANCORA",
+      "artist": "chiello",
+      "plays": 46,
+      "minuti": 130,
+      "link": "https://open.spotify.com/track/33LYvdSbeXaVc5PEIsjR6Z"
+    },
+    {
+      "track": "adore u",
+      "artist": "Fred again..",
+      "plays": 41,
+      "minuti": 125,
+      "link": "https://open.spotify.com/track/3YgtkOxZsTuaZdL8McA1FQ"
+    },
+    {
+      "track": "Runaway",
+      "artist": "Kanye West",
+      "plays": 21,
+      "minuti": 116,
+      "link": "https://open.spotify.com/track/3DK6m7It6Pw857FcQftMds"
+    },
+    {
+      "track": "Ghiaccio (feat. chiello)",
+      "artist": "ceneri",
+      "plays": 35,
+      "minuti": 116,
+      "link": "https://open.spotify.com/track/1n6nELvv3kH2iWmBEOy4qn"
+    },
+    {
+      "track": "Sigue",
+      "artist": "Beny Jr",
+      "plays": 37,
+      "minuti": 115,
+      "link": "https://open.spotify.com/track/63ZedTAVRCICh2CNLWnsPZ"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Drake",
+      "minuti": 1018
+    },
+    {
+      "artist": "chiello",
+      "minuti": 880
+    },
+    {
+      "artist": "Frank Ocean",
+      "minuti": 858
+    },
+    {
+      "artist": "K beezy 28",
+      "minuti": 756
+    },
+    {
+      "artist": "Headache",
+      "minuti": 620
+    },
+    {
+      "artist": "MACE",
+      "minuti": 583
+    },
+    {
+      "artist": "Bob Dylan",
+      "minuti": 581
+    },
+    {
+      "artist": "VillaBanks",
+      "minuti": 560
+    },
+    {
+      "artist": "Fred again..",
+      "minuti": 530
+    },
+    {
+      "artist": "Franco Battiato",
+      "minuti": 498
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "Honestly, Nevermind",
+      "artist": "Drake",
+      "minuti": 756
+    },
+    {
+      "album": "Blonde",
+      "artist": "Frank Ocean",
+      "minuti": 722
+    },
+    {
+      "album": "The Head Hurts but the Heart Knows the Truth",
+      "artist": "Headache",
+      "minuti": 616
+    },
+    {
+      "album": "Marina",
+      "artist": "K beezy 28",
+      "minuti": 574
+    },
+    {
+      "album": "La Voce Del Padrone",
+      "artist": "Franco Battiato",
+      "minuti": 458
+    },
+    {
+      "album": "NATURALE",
+      "artist": "Germo67",
+      "minuti": 418
+    },
+    {
+      "album": "The Essential Bob Dylan",
+      "artist": "Bob Dylan",
+      "minuti": 402
+    },
+    {
+      "album": "TUNNEL",
+      "artist": "Simba La Rue",
+      "minuti": 320
+    },
+    {
+      "album": "MĀYĀ",
+      "artist": "MACE",
+      "minuti": 318
+    },
+    {
+      "album": "MUSICASSETTE VOL.1",
+      "artist": "Ero Felice",
+      "minuti": 309
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2024-01-14",
+    "minuti": 468
+  }
+}

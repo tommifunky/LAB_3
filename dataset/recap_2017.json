@@ -1,0 +1,176 @@
+{
+  "anno": 2017,
+  "ascolti_totali": 16578,
+  "minuti_totali": 42915,
+  "artisti_unici": 1613,
+  "top_10_canzoni": [
+    {
+      "track": "Step By Step",
+      "artist": "Tedua",
+      "plays": 263,
+      "minuti": 776,
+      "link": "https://open.spotify.com/track/5Q4RVpTzSjID9yeqMaz39Z"
+    },
+    {
+      "track": "Lingerie",
+      "artist": "Tedua",
+      "plays": 170,
+      "minuti": 511,
+      "link": "https://open.spotify.com/track/4INw5bY2hmzLmvrZ4eYXY8"
+    },
+    {
+      "track": "Ci Vuole Poco",
+      "artist": "Tedua",
+      "plays": 134,
+      "minuti": 510,
+      "link": "https://open.spotify.com/track/2H5ICrQYoW50pxRlwyFx4d"
+    },
+    {
+      "track": "Buste Della Spesa",
+      "artist": "Tedua",
+      "plays": 169,
+      "minuti": 478,
+      "link": "https://open.spotify.com/track/3JV7cTXVaOfKRhq17XyEoi"
+    },
+    {
+      "track": "Pugile",
+      "artist": "Tedua",
+      "plays": 158,
+      "minuti": 467,
+      "link": "https://open.spotify.com/track/3mUGRYMKX2h1eCjKM3GEC2"
+    },
+    {
+      "track": "Pelle toscana",
+      "artist": "Vegas Jones",
+      "plays": 120,
+      "minuti": 431,
+      "link": "https://open.spotify.com/track/0ZZoeF9Wd3vwfWSVrYC5S6"
+    },
+    {
+      "track": "00",
+      "artist": "Rkomi",
+      "plays": 146,
+      "minuti": 416,
+      "link": "https://open.spotify.com/track/5XpevdhI0d5qi1pyWC0TkL"
+    },
+    {
+      "track": "OC (California)",
+      "artist": "Tedua",
+      "plays": 168,
+      "minuti": 414,
+      "link": "https://open.spotify.com/track/2aIaJK8igN7D7fpt11VT5f"
+    },
+    {
+      "track": "Trankilo",
+      "artist": "Vegas Jones",
+      "plays": 124,
+      "minuti": 408,
+      "link": "https://open.spotify.com/track/4hwwDxMDxwNbCyUJuI5sLa"
+    },
+    {
+      "track": "Circonvalley",
+      "artist": "Tedua",
+      "plays": 162,
+      "minuti": 381,
+      "link": "https://open.spotify.com/track/0FDozGciVxSYGyCOvXfuWC"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Tedua",
+      "minuti": 5077
+    },
+    {
+      "artist": "Vegas Jones",
+      "minuti": 2869
+    },
+    {
+      "artist": "Rkomi",
+      "minuti": 2239
+    },
+    {
+      "artist": "Izi",
+      "minuti": 1493
+    },
+    {
+      "artist": "Sfera Ebbasta",
+      "minuti": 1269
+    },
+    {
+      "artist": "Ernia",
+      "minuti": 1079
+    },
+    {
+      "artist": "Nekfeu",
+      "minuti": 1023
+    },
+    {
+      "artist": "Ed Sheeran",
+      "minuti": 988
+    },
+    {
+      "artist": "Laïoung",
+      "minuti": 714
+    },
+    {
+      "artist": "Vasco Rossi",
+      "minuti": 700
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "Orange County California",
+      "artist": "Tedua",
+      "minuti": 4509
+    },
+    {
+      "album": "Chic Nisello",
+      "artist": "Vegas Jones",
+      "minuti": 2151
+    },
+    {
+      "album": "Dasein sollen",
+      "artist": "Rkomi",
+      "minuti": 980
+    },
+    {
+      "album": "Feu",
+      "artist": "Nekfeu",
+      "minuti": 967
+    },
+    {
+      "album": "Sfera Ebbasta",
+      "artist": "Sfera Ebbasta",
+      "minuti": 952
+    },
+    {
+      "album": "x",
+      "artist": "Ed Sheeran",
+      "minuti": 690
+    },
+    {
+      "album": "Fenice",
+      "artist": "Izi",
+      "minuti": 458
+    },
+    {
+      "album": "No Hooks",
+      "artist": "Ernia",
+      "minuti": 427
+    },
+    {
+      "album": "Io In Terra",
+      "artist": "Rkomi",
+      "minuti": 417
+    },
+    {
+      "album": "Relaxing ASMR",
+      "artist": "chiara asmr",
+      "minuti": 403
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2017-04-17",
+    "minuti": 712
+  }
+}

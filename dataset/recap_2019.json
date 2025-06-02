@@ -1,0 +1,176 @@
+{
+  "anno": 2019,
+  "ascolti_totali": 17878,
+  "minuti_totali": 38702,
+  "artisti_unici": 1683,
+  "top_10_canzoni": [
+    {
+      "track": "Hot Wheels",
+      "artist": "Gallagher",
+      "plays": 96,
+      "minuti": 249,
+      "link": "https://open.spotify.com/track/1QqQsd7BILQ5DMLNOnPODv"
+    },
+    {
+      "track": "The Way Life Goes (feat. Oh Wonder)",
+      "artist": "Lil Uzi Vert",
+      "plays": 74,
+      "minuti": 227,
+      "link": "https://open.spotify.com/track/2eAZfqOm4EnOF9VvN50Tyc"
+    },
+    {
+      "track": "90210 (feat. Kacy Hill)",
+      "artist": "Travis Scott",
+      "plays": 41,
+      "minuti": 192,
+      "link": "https://open.spotify.com/track/51EC3I1nQXpec4gDk0mQyP"
+    },
+    {
+      "track": "Bizness",
+      "artist": "Radical",
+      "plays": 104,
+      "minuti": 188,
+      "link": "https://open.spotify.com/track/38ewM0jhk2n3IAm5RMvZnK"
+    },
+    {
+      "track": "Quello Che Ho",
+      "artist": "SmokeStackStudio",
+      "plays": 46,
+      "minuti": 176,
+      "link": "https://open.spotify.com/track/25KWpKSftkjUBHwqKSQQsS"
+    },
+    {
+      "track": "Sway (feat. Quavo & Lil Yachty)",
+      "artist": "NexXthursday",
+      "plays": 51,
+      "minuti": 161,
+      "link": "https://open.spotify.com/track/4QeBlVCl2KzUEcQZiuskRd"
+    },
+    {
+      "track": "Acqua (Malpensandoti)",
+      "artist": "Tedua",
+      "plays": 40,
+      "minuti": 157,
+      "link": "https://open.spotify.com/track/6KkouTRDrryQhfAJON3n77"
+    },
+    {
+      "track": "It Takes Time",
+      "artist": "Trippie Redd",
+      "plays": 40,
+      "minuti": 152,
+      "link": "https://open.spotify.com/track/7022xokeCJFSeZxw2npVkn"
+    },
+    {
+      "track": "Suave",
+      "artist": "UncleBac",
+      "plays": 72,
+      "minuti": 150,
+      "link": "https://open.spotify.com/track/3L4OTuqtI4w1hkq4ZvGs2v"
+    },
+    {
+      "track": "LA PROVA DEL CUOCO",
+      "artist": "FSK SATELLITE",
+      "plays": 65,
+      "minuti": 150,
+      "link": "https://open.spotify.com/track/6VPcfYrO6oSYbEg6HTncDo"
+    }
+  ],
+  "top_10_artisti": [
+    {
+      "artist": "Tedua",
+      "minuti": 1209
+    },
+    {
+      "artist": "Dark Polo Gang",
+      "minuti": 1195
+    },
+    {
+      "artist": "Trippie Redd",
+      "minuti": 1052
+    },
+    {
+      "artist": "FSK SATELLITE",
+      "minuti": 819
+    },
+    {
+      "artist": "Gallagher",
+      "minuti": 704
+    },
+    {
+      "artist": "Vegas Jones",
+      "minuti": 683
+    },
+    {
+      "artist": "K beezy 28",
+      "minuti": 638
+    },
+    {
+      "artist": "Side Baby",
+      "minuti": 615
+    },
+    {
+      "artist": "Radical",
+      "minuti": 571
+    },
+    {
+      "artist": "Playboi Carti",
+      "minuti": 525
+    }
+  ],
+  "top_10_album": [
+    {
+      "album": "Orange County California",
+      "artist": "Tedua",
+      "minuti": 805
+    },
+    {
+      "album": "Succo di zenzero",
+      "artist": "Dark Polo Gang",
+      "minuti": 639
+    },
+    {
+      "album": "FSK TRAPSHIT",
+      "artist": "FSK SATELLITE",
+      "minuti": 587
+    },
+    {
+      "album": "Painful To Remember",
+      "artist": "K beezy 28",
+      "minuti": 527
+    },
+    {
+      "album": "Arturo",
+      "artist": "Side Baby",
+      "minuti": 472
+    },
+    {
+      "album": "A Love Letter To You 2",
+      "artist": "Trippie Redd",
+      "minuti": 403
+    },
+    {
+      "album": "Re Mida",
+      "artist": "Lazza",
+      "minuti": 394
+    },
+    {
+      "album": "Playboi Carti",
+      "artist": "Playboi Carti",
+      "minuti": 393
+    },
+    {
+      "album": "Scialla Semper",
+      "artist": "Massimo Pericolo",
+      "minuti": 386
+    },
+    {
+      "album": "R1Q17",
+      "artist": "Gallagher",
+      "minuti": 381
+    }
+  ],
+  "giorno_piu_ascolti": {
+    "data": "2019-12-16",
+    "minuti": 462
+  }
+}
