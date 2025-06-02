@@ -1,0 +1,926 @@
+.track-modal {
+  position: fixed;
+  bottom: 48px;
+  right: 13px;
+  background: #000000;
+  padding: 13px 13px; /* Aumentato padding */
+  border: 0.2px solid #ffffff;
+  z-index: 2000;
+  color: #ffffff;
+  width: auto;
+  min-width: 280px; /* Aggiunto min-width */
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  transition: all 0;
+}
+
+.track-modal p {
+  margin: 0px 0; /* Aumentato spazio tra paragrafi */
+  font-size: 12px;
+  color: inherit;
+  line-height: 2em; /* Aumentato interlinea */
+}
+
+.track-modal strong {
+  display: inline-block;
+  width: 50px; /* Larghezza fissa per allineare le etichette */
+  color: inherit;
+  font-weight: normal;
+}
+
+/* Stile per il pulsante Spotify */
+.track-modal .spotify-button {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 4px;
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.track-modal .spotify-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.close-button {
+  position: absolute;
+  bottom: 4px;
+  right: 3px;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+    body {
+      margin: 0;
+      background: #000000;
+      font-family: 'Roboto', sans-serif;
+    }
+
+
+
+    #sidebar {
+      position: fixed;
+      left: 13px;
+      top: 13px;
+      width: 59px;
+      height: 550px;
+      background: #000000;
+      display: flex;
+      flex-direction: column;
+      z-index: 1000;
+      
+    }
+
+    .year-button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s ease; /* Aggiunto transition per un effetto fluido */
+  filter: saturate(0.2);
+  border: #ffffff 0.2px solid;
+  background: #000000;
+  position: relative; /* Per il posizionamento del testo */
+}
+
+.year-button:hover {
+  filter: saturate(1);
+  border: #ffffff 0.2px solid;
+  background: var(--year-color); /* Usa il colore dell'anno come sfondo */
+}
+
+.year-button:hover span {
+  color: #ffffff !important; /* Il testo diventa bianco */
+}
+
+    .year-button.active {
+      filter: saturate(1);
+      border: #ffffff 0.2px solid;
+    }
+
+    
+
+    #canvas-container {
+      margin-top: 60px;
+      width: 100%;
+      height: calc(100vh - 60px);
+      overflow: auto;
+      position: relative;
+    }
+
+    .track {
+      position: absolute;
+      font-size: 10px;
+      white-space: nowrap;
+      font-family: 'Roboto', sans-serif;
+      cursor: pointer;
+      user-select: none;
+    }
+
+     #months-container {
+  position: fixed;
+  top: 13px; /* appena sotto la topbar */
+  left: 0px;
+  right: 0;
+  height: 30px;
+  background: none;
+  z-index: 5;
+  pointer-events: none; /* evita interferenze */
+}
+
+.month-button {
+  position: absolute;
+  background: #000000;
+  color: #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  border: 0.2px solid #ffffff;
+  white-space: nowrap;
+  z-index: 100;
+  pointer-events: auto;
+ transition: all 0;
+}
+
+
+.month-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+.month-button.fixed {
+  position: fixed !important;
+  top: 13px !important;
+  left: 13px !important; /* La stessa posizione del primo mese */
+  z-index: 9999 !important;
+}
+
+/* Add this in the <style> section */
+.year-label {
+  position: fixed;
+  background: #000000;
+  color: #000000;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  border: 0.2px solid #ffffff;
+  white-space: nowrap;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0s ease;
+  pointer-events: none;
+}
+
+#canvas-container {
+  margin-top: 13px;
+  width: 100%;
+  height: calc(100vh - 20px);
+  overflow: auto;
+  position: relative;
+  transition: width 0.8s ease; /* Aggiungi questa riga */
+}
+
+#canvas-container.month-view {
+  width: 2500 !important;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+
+
+
+
+.heatmap-toggle {
+  position: fixed;
+  left: 431px;
+  bottom: 15px;
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  border-radius: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0;
+}
+
+.heatmap-toggle:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.heatmap-toggle.active:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.coordinates-box {
+  position: fixed;
+  right: 13px;
+  bottom: 15px;
+  background: #000000;
+  color: #ffffff;
+  padding: 2px 4px;
+  border: 0.2px solid #ffffff;
+  border-radius: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  z-index: 1000;
+   transition: all 0;
+
+  
+}
+
+.coordinates-box:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+.opacity-control {
+  position: fixed;
+  left: 535px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  z-index: 1000;
+  background: #000000;
+  padding: 2px 4px;
+  border: 0.2px solid #ffffff;
+  transition: left 0s ;
+}
+
+.opacity-control.shifted {
+  left: 551px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 80px;
+  height: 1px;
+  background: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#opacityValue {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  min-width: 10px;
+  text-align: left; /* Aggiunto per allineare il numero */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aggiungi nella sezione <style> */
+.color-config-toggle {
+  position: fixed;
+  left: 206px; /* Modificato da 13px a 228px (118px + 110px dello slider) */
+  bottom: 15px; /* Modificato da 48px a 15px per allinearlo con lo slider */
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: left 0s;
+}
+
+.color-config-toggle:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.color-config-box {
+  position: fixed;
+  left: 206px;
+  bottom: 49px;
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  z-index: 2000;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.color-config-box.shifted {
+  left: 132px;
+}
+
+.color-config-box h3 {
+  margin: 4px 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.color-input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+
+.color-input-group label {
+  min-width: 40px;
+}
+
+.color-input-group input {
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  padding: 2px 4px;
+  width: 70px;
+}
+
+.update-colors-btn {
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-left: 59.5px;
+  width: 93.5px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.update-colors-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+
+
+
+
+
+.color-input-group input[type="color"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.color-input-group input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-input-group input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+.color-input-group input[type="color"]:hover {
+  background: #000000;
+}
+
+
+.save-button {
+  position: fixed;
+  left: 323px; /* Posizionato dopo lo slider dell'opacità */
+  bottom: 15px;
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0;
+}
+
+.save-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+
+
+/* Aggiungi nella sezione <style> */
+.about-button {
+  position: fixed;
+  left: 13px;
+  bottom: 15px;
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0;
+}
+
+.about-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(0.1px);
+  z-index: 1999;
+}
+
+.about-modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  padding: 13px 13px; /* Aumentato il padding interno */
+  z-index: 2000;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  max-width: 500px; /* Aumentata la larghezza massima */
+  min-width: 400px; /* Aggiunta una larghezza minima */
+}
+
+.about-modal h2 {
+  margin: 0 0 0px 0; /* Aumentato il margine sotto il titolo */
+  font-size: 20px; /* Titolo leggermente più grande */
+  font-weight: normal;
+}
+
+.about-modal p {
+  margin: 12px 0; /* Aumentato lo spazio tra i paragrafi */
+  font-size: 12px;
+  line-height: 1.2em; /* Aumentato l'interlinea */
+}
+
+
+.about-modal {
+  margin-top: 16px; /* Aumentato lo spazio sopra il pulsante GitHub */
+  margin-bottom: 0px;
+  text-align: left; /* Centrato il testo nel pulsante */
+}
+.github-button {
+  margin-bottom: 0px;
+  text-align: left; /* Centrato il testo nel pulsante */
+}
+
+.about-modal a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about-modal a:hover {
+  text-decoration: underline;
+}
+
+
+.github-button {
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 2px;
+  text-align: left;
+}
+
+.github-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+.about-modal .close-button {
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 9px;
+  margin-right: 10px;
+}
+
+.about-modal .close-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.import-button {
+  position: fixed;
+  left: 142px;
+  bottom: 15px;
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0;
+}
+
+.import-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+.about-button.active,
+.color-config-toggle.active,
+.heatmap-toggle.active {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+.year-stats-box {
+  position: fixed;
+  top: 13px;
+  left: 85px;
+  width: 500px;
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  padding: 8px 13px;
+  z-index: 999;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.year-stats-box h3 {
+  margin: 4px 0;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 13px;
+  margin: 13px 0;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 4px;
+  background: #000000;
+  border: 0.2px solid #ffffff;
+}
+
+.stat-label {
+  color: #ffffff;
+}
+
+.stat-value {
+  color: #ffffff;
+}
+
+.stats-lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px; /* Distanza tra le colonne */
+  margin-top: 13px; /* Distanza sopra */
+}
+
+.stats-list {
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  margin-bottom: 7px;
+}
+
+.stats-list-title {
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 4px;
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.stats-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 4px;
+}
+
+.stats-list li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.stats-list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.stats-list a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.metadata-boxes {
+  position: fixed;
+  display: flex;
+  gap: 20px;
+  z-index: 2000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metadata-box {
+  width: 300px;
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  padding: 13px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.metadata-box h4 {
+  margin: 0px 0;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.metadata-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  border: 0.2px solid #ffffff;
+  margin: 13px 0;
+}
+
+.metadata-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  gap: 1px;
+  margin-top: 8px;
+  position: relative;
+}
+.chart-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metadata-bar {
+  width: 100%;
+  background: #ffffff;
+  transition: all 0s;
+  position: relative;
+}
+
+
+.metadata-bar:hover {
+  background: #000000;
+  border: 0.2px solid #ffffff;
+}
+
+
+.stats-header {
+  margin-bottom: 20px;
+}
+
+.stats-header h4 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.stats-header p {
+  color: #888;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  border: 0.2px solid #ffffff;
+  padding: 12px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  color: #888;
+  font-size: 11px;
+}
+
+.hourly-chart {
+  margin-top: 20px;
+}
+
+.hourly-chart h4 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+.chart-container {
+  position: relative;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  padding-bottom: 20px;
+  border-bottom: 0.2px solid #333;
+}
+
+.chart-bar {
+  flex: 1;
+  background: #ffffff;
+  transition: height 0.3s ease;
+}
+
+.chart-bar:hover {
+  background: #888;
+}
+
+.hour-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.hour-label {
+  display: none;
+}
+
+.peak-hours {
+  text-align: center;
+  margin-top: 20px;
+  padding: 12px;
+  border: 0.2px solid #333;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dataset-button {
+  position: fixed;
+  left: 67px;
+  bottom: 15px;
+  background: #000000;
+  color: #ffffff;
+  border: 0.2px solid #ffffff;
+  padding: 2px 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0;
+}
+
+.dataset-button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.dataset-button.active {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+
+
+.hour-point {
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background: #ffffff;
+  transform-origin: 50% 100%;
+}
+
+.hour-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5px;
+  background: #ffffff;
+  transform-origin: center bottom;
+  transition: height 0.3s ease;
+}
+
+
+.chart-title {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.bar-tooltip {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 8px);
+  transform: translateY(-50%);
+  background: #000000;
+  border: 0.2px solid #ffffff;
+  padding: 4px 8px;
+  white-space: nowrap;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 2001;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0s, visibility 0s;
+}
+
+.metadata-bar:hover .bar-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
