@@ -791,7 +791,7 @@ function showAboutModal() {
     Un progetto di data visualization che trasforma 10 anni di ascolti musicali in una mappa della memoria,
     sviluppato da Tommaso Stanga per il corso Lab III presso SUPSI.
   </p>
-  <button class="github-button" onclick="window.open('https://github.com/tommifunky/Spotify_memory_map', '_blank')">
+  <button class="github-button" onclick="window.open('https://github.com/tommifunky/LAB_3', '_blank')">
     Visita la repository
   </button>
   <button class="close-button">Chiudi</button>
