@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spotify Memory Map</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+<body>
+  <div id="months-container"></div>
+  <div id="sidebar"></div>
+  <div id="canvas-container"></div>
+  <button id="heatmapToggle" class="heatmap-toggle">Attiva heatmap</button>
+  <div class="opacity-control">
+    <input type="range" id="opacitySlider" min="0" max="100" value="5" class="slider">
+    <span id="opacityValue">5%</span>
+  </div>
+  <div id="coordinatesBox" class="coordinates-box">Posizione: --</div>
+
+  <button id="colorConfigToggle" class="color-config-toggle">Paletta cromatica</button>
+  <div id="colorConfigBox" class="color-config-box" style="display: none;">
+    <h3>Personalizza i colori</h3>
+    <div id="colorInputs"></div>
+    <button id="updateColors" class="update-colors-btn">Aggiorna</button>
+    <button id="saveButton" class="save-button">Salva</button>
+  </div>
+  <button id="saveButton" class="save-button">Salva immagine</button>
+  <button id="aboutButton" class="about-button">About</button>
+  <button id="importButton" class="import-button">Importa</button>
+  <button id="datasetButton" class="dataset-button">Set di dati</button>
+  <div id="year-stats-box" class="year-stats-box" style="display: none;"></div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
