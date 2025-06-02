@@ -48,6 +48,3 @@ Ho anche approfondito Python e la manipolazione dei dati, parte fondamentale per
 
 Puoi utilizzare e modificare liberamente questo progetto, ma ti chiedo di citare la fonte se lo condividi o lo modifichi pubblicamente.
 
----
-
-Se vuoi posso personalizzarlo ulteriormente o aggiungere una sezione su come usare i dati/script Python! Vuoi anche il badge con la licenza (MIT o CC) e la parte di "come avviare il sito in locale"? Fammi sapere!
