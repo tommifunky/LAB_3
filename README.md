@@ -42,8 +42,6 @@ Il sito web rappresenta visivamente i miei ascolti musicali con un approccio spe
 Come spiegato nel documento PDF allegato, l’idea è nata dall’esigenza di raccontare graficamente la mia storia musicale, iniziata come un libro sperimentale con rilegatura svizzera. Ma, durante lo sviluppo, ho deciso di virare sul web, dove posso sfruttare al massimo le mie competenze in HTML, CSS e JavaScript (e imparare tanto di nuovo!).  
 Ho anche approfondito Python e la manipolazione dei dati, parte fondamentale per ottenere i JSON più leggeri e strutturati che popolano il sito.
 
-> ✍️ Progetto realizzato da **Tommaso Stanga (CV2, SUPSI)** – 2024-2025
-
 ## Licenza
 
 Puoi utilizzare e modificare liberamente questo progetto, ma ti chiedo di citare la fonte se lo condividi o lo modifichi pubblicamente.
